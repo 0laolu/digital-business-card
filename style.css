@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+.page-wrapper {
+    background-color: #23252C;
+    min-height: 100vh;
+    padding: 1.5rem 0
+}
+
+.business-card-container {
+    width: 19.8rem;
+    margin: 0 auto;
+}
+
+.business-card__info {
+    width: 100%;
+}
+
+.business-card__info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-info {
+    background-color: #1A1B21;
+    width: 100%;
+    text-align: center;
+}
+
+.profile-info h2 {
+    color: #FFFFFF;
+    font-size: 1.6rem;
+}
+
+.profile-info .title {
+    color: #F3BF99;
+    font-size: 0.8rem;
+}
+
+.profile-info a {
+    color: #F5F5F5;
+    font-size: 0.65rem;
+    text-decoration: none;
+}
+
+.socials-buttons {
+    width: 100%;
+    max-width: 15.4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 7.1rem;
+    margin-top: 0.9rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.email.button {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.linkedin.button {
+    background-color: #5093E2;
+    color: #FFFFFF;
+    border: 1px solid #5093E2;
+    
+}
+
+.btn-content {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.btn-content img {
+    width: 19px;
+}
+
+.btn-text {
+    font-size: 0.88rem;
+    padding: 0.5rem 0;
+    margin-left: 0.4rem;
+    position: relative;
+    top: 0.1rem;
+}
+
+.business-card__about,
+.business-card__interests {
+    background-color: #1A1B21;
+    padding: 2rem 2.25rem 0 2.25rem;
+}
+
+.interests-content {
+    padding-bottom: 1.5rem;
+}
+
+.section-header {
+    color: #F5F5F5;
+    padding-bottom: 0.6rem;
+}
+
+.business-card__about p,
+.business-card__interests p {
+    color: #DCDCDC;
+    font-size: 0.75rem;
+    line-height: 1.6;
+    
+}
+
+.footer-container {
+    background-color: #161619;
+    padding: 1.2rem 0;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.socials-icon-container {
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
